@@ -130,9 +130,12 @@ body{
   border: 1px solid #00b0f2;
   border-radius: 4px;
   background-color: inherit;
-  color: #eee243;
+  color: #00b0f2;
   transition: border-color .4s ease-in-out;
 }
+
+input::placeholder {
+  color: #eee243;
 
 input:focus {
   outline: 0;

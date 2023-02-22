@@ -136,6 +136,7 @@ body{
 
 input::placeholder {
   color: #eee243;
+}
 
 input:focus {
   outline: 0;

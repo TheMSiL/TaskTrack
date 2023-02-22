@@ -131,11 +131,13 @@ body{
   border-radius: 4px;
   background-color: inherit;
   color: #eee243;
+  transition: border-color .4s ease-in-out;
 }
 
 input:focus {
   outline: 0;
   outline-offset: 0;
+  border-color: #eee243;
 }
 
 

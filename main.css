@@ -2,11 +2,26 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/style.css ***!
   \************************************************************************/
 body {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 	color: #00b0f2;
+	width: 100vw;
+	height: 100vh;
+	animation: gradient-animation 6s ease infinite ;
+	background: linear-gradient(334deg, #d8e0ee, #605e64, #292728);
+	background-size: 180% 180%;
 }
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .app-wrapper {
 	font-family: 'Roboto', sans-serif;
 }
